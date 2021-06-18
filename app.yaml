@@ -1,0 +1,10 @@
+#app.yaml
+runtime: python37
+
+env_variables:
+  MTA_API_KEY: "rhcJ5UNnzY7IkxC2AkTdG6fXOlwEpMHP3AWawCas"
+  CLOUD_SQL_USERNAME: "sqlserver"
+  CLOUD_SQL_PASSWORD: "julia"
+  CLOUD_SQL_DATABASE_NAME: "subway"
+  CLOUD_SQL_CONNECTION_NAME: "mta-delay-monitor:us-east1:mta-delay-monitor"
+  CLOUD_SQL_SERVER: "34.73.78.151"
