@@ -14,16 +14,16 @@ db_server = os.environ.get('CLOUD_SQL_SERVER_NAME')
 DB TABLES: 
 
 tbl_mta_subway_line
-    - line_id (identity)
-    - created_at 
-    - is_delayed
+    - line_id (string, identity)
+    - created_at (datetime)
+    - is_delayed (boolean)
 
 tbl_mta_subway_delay_alert
     - line_id (primary key)
     - alert id (primary key)
-    - start
-    - end
-    - duration (in seconds)
+    - start (datetime)
+    - end (datetime)
+    - duration (int in seconds)
 """
 
 
